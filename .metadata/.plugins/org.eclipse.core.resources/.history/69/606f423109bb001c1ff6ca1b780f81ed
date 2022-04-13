@@ -1,0 +1,15 @@
+package TextInheritance09;
+
+public class ShipName {
+	public static void search(Ship s) { //static占쏙옙 占쌍어서 클占쏙옙占쏙옙 占쌨소듸옙占싱곤옙(클占쏙옙占쏙옙 占싱몌옙占쏙옙占쏙옙 占쏙옙占쏙옙)
+		//search(Ship s) 硫붿냼?뱶媛? ?씤?옄媛믪쑝濡? 諛쏅뒗 媛앹껜 蹂??닔 s?뒗 ?삎 蹂??솚?맂 ?뜲?씠?꽣瑜? 諛쏄린 ?븣臾몄뿉
+		//s?뒗 ?뾽罹먯뒪?똿 ?맂?떎.
+		if(s instanceof MyShip) {
+			MyShip b = (MyShip)s; // 占쏙옙체占쏙옙占쏙옙 s占쏙옙 占쏙옙占쏙옙占쏙옙 占쌕울옙 占심쏙옙占쏙옙 占쏙옙 占쏙옙 占쌍댐옙.
+			System.out.println("MyShip 占싱몌옙 : "+b.Name());
+		}else if(s instanceof YourShip) {
+			YourShip b = (YourShip)s; // 占쏙옙체占쏙옙占쏙옙 s占쏙옙 占쏙옙占쏙옙占쏙옙 占쌕울옙 占심쏙옙占쏙옙 占쏙옙 占쏙옙 占쌍댐옙.
+			System.out.println("Yourship 占싱몌옙 : "+b.Name());
+		}
+	}
+}

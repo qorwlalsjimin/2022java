@@ -1,0 +1,13 @@
+package TextInheritance10;
+
+public class ShapeTest extends ShapeExam{
+	@Override
+	public double getArea(int r) {
+		return 3.14*r*r;
+	}
+	
+	@Override
+	public double getCircum(int r) {
+		return 3.14*4*2;
+	}
+}

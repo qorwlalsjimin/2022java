@@ -1,0 +1,5 @@
+package TextInheritance09;
+
+public class MyShip extends Ship {
+
+}

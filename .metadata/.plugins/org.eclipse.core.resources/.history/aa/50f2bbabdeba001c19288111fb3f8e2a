@@ -1,0 +1,12 @@
+package TextInheritance10;
+
+public class ShapeMainTest {
+
+	public static void main(String[] args) {
+		ShapeTest s = new ShapeTest();
+		s.getArea(12.34);
+		s.getCircum(12.34);
+
+	}
+
+}

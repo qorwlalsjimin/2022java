@@ -1,0 +1,5 @@
+package TextInheritance10;
+
+public class ShapeTest extends ShapeExam{
+
+}

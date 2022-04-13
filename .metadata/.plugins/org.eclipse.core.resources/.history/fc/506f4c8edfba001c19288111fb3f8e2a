@@ -1,0 +1,5 @@
+package TextInheritance11;
+
+public interface Sound {
+
+}

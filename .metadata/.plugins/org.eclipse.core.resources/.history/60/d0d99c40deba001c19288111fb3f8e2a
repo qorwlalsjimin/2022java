@@ -1,0 +1,10 @@
+package TextInheritance10;
+
+public class ShapeMainTest {
+
+	public static void main(String[] args) {
+		ShapeTest s = new ShapeTest(3);
+
+	}
+
+}

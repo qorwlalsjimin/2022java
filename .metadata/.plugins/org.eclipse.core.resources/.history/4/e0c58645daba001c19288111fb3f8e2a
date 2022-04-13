@@ -1,0 +1,13 @@
+package TextInheritance09;
+
+public class ShipName {
+	public static void search(Ship s) {
+		if(s instanceof MyShip) {
+			MyShip b = (MyShip)s;
+			System.out.println("MyShip 이름 : "+b.Name());
+		}else if(s instanceof YourShip) {
+			YourShip b = (YourShip)s;
+			System.out.println("Yourship 이름 : "+b.Name());
+		}
+	}
+}
